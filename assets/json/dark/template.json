@@ -1,0 +1,962 @@
+{
+  "name": "{{ name }}",
+  "type": "dark",
+  "colors": {
+    "activityBar.background": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "activityBar.foreground": "{{ wb-01-very-bright-gray-xx }}",
+    "activityBarBadge.background": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "activityBarBadge.foreground": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "badge.background": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "badge.foreground": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "button.background": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "button.foreground": "{{ wb-01-very-bright-gray-xx }}",
+    "button.hoverBackground": "{{ wb-06-bright-midnight-xxx }}",
+    "diffEditor.insertedTextBackground": "{{ r-11-diff-green-xxxxxxxxx }}",
+    "diffEditor.removedTextBackground": "{{ r-03-diff-red-xxxxxxxxxxx }}",
+    "editor.background": "{{ wb-11_very-dark-gray-xxxx }}",
+    "editor.findMatchBackground": "{{ r-19-purple-alpha-xxxxxxx }}",
+    "editor.findMatchHighlightBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "editor.foreground": "{{ wb-01-very-bright-gray-xx }}",
+    "editor.inactiveSelectionBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "editor.lineHighlightBackground": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "editor.selectionBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "editor.selectionHighlightBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "editor.wordHighlightBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "editor.wordHighlightStrongBackground": "{{ r-06-bright-magenta-alpha }}",
+    "editorCodeLens.foreground": "{{ r-09-bright-yellow-alpha- }}",
+    "editorCursor.foreground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "editorError.border": "{{ r-00-red-xxxxxxxxxxxxxxxx }}",
+    "editorError.foreground": "{{ r-00-red-xxxxxxxxxxxxxxxx }}",
+    "editorGutter.addedBackground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "editorGutter.deletedBackground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "editorGutter.modifiedBackground": "{{ r-08-bright-yellow-xxxxxx }}",
+    "editorHoverWidget.background": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "editorOverviewRuler.addedForeground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "editorOverviewRuler.border": "{{ wb-14-black-xxxxxxxxxxxxx }}",
+    "editorOverviewRuler.deletedForeground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "editorOverviewRuler.errorForeground": "{{ r-00-red-xxxxxxxxxxxxxxxx }}",
+    "editorOverviewRuler.infoForeground": "{{ r-16-bright-blue-xxxxxxxx }}",
+    "editorOverviewRuler.modifiedForeground": "{{ r-08-bright-yellow-xxxxxx }}",
+    "editorOverviewRuler.warningForeground": "{{ r-07-yellow-xxxxxxxxxxxxx }}",
+    "editorRuler.foreground": "{{ r-19-purple-alpha-xxxxxxx }}",
+    "editorSuggestWidget.selectedBackground": "{{ r-12-green-alpha-xxxxxxxx }}",
+    "editorWarning.border": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "editorWarning.foreground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "editorWhitespace.foreground": "{{ wb-07-steel-gray-xxxxxxxx }}",
+    "editorWidget.background": "{{ wb-11_very-dark-gray-xxxx }}",
+    "editorWidget.border": "{{ wb-09-gray-xxxxxxxxxxxxxx }}",
+    "extensionButton.prominentBackground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "extensionButton.prominentForeground": "{{ wb-02-brighter-gray-alpha }}",
+    "extensionButton.prominentHoverBackground": "{{ wb-06-bright-midnight-xxx }}",
+    "gitDecoration.ignoredResourceForeground": "{{ wb-05-bright-gray-xxxxxxx }}",
+    "list.activeSelectionBackground": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "list.activeSelectionForeground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "list.focusBackground": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "list.focusForeground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "list.highlightForeground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "list.hoverBackground": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "list.hoverForeground": "{{ wb-03-brighter-gray-xxxxx }}",
+    "list.inactiveSelectionBackground": "{{ wb-10-seal-xxxxxxxxxxxxxx }}",
+    "list.inactiveSelectionForeground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "merge.currentContentBackground": "{{ r-19-purple-alpha-xxxxxxx }}",
+    "merge.currentHeaderBackground": "{{ r-20-purple-xxxxxxxxxxxxx }}",
+    "merge.incomingContentBackground": "{{ r-09-bright-yellow-alpha- }}",
+    "merge.incomingHeaderBackground": "{{ r-02-bright-red-xxxxxxxxx }}",
+    "progressBar.background": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "scrollbar.shadow": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "scrollbarSlider.activeBackground": "{{ wb-05-bright-gray-xxxxxxx }}",
+    "scrollbarSlider.background": "{{ wb-05-bright-gray-xxxxxxx }}",
+    "scrollbarSlider.hoverBackground": "{{ r-13-bright-green-xxxxxxx }}",
+    "sideBar.background": "{{ wb-11_very-dark-gray-xxxx }}",
+    "sideBar.border": "{{ wb-04-contrast-gray-xxxxx }}",
+    "sideBar.foreground": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "statusBar.background": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "statusBar.debuggingBackground": "{{ r-00-red-xxxxxxxxxxxxxxxx }}",
+    "statusBar.debuggingBorder": "{{ wb-01-very-bright-gray-xx }}",
+    "statusBar.foreground": "{{ wb-01-very-bright-gray-xx }}",
+    "statusBar.noFolderBackground": "{{ wb-11_very-dark-gray-xxxx }}",
+    "statusBar.noFolderForeground": "{{ wb-11_very-dark-gray-xxxx }}",
+    "terminal.ansiBlue": "{{ ansi.r-17-blue-xxxxxxxxxxxxxxx }}",
+    "terminal.ansiBrightBlack": "{{ ansi.wb-13-black-xxxxxxxxxxxxx }}",
+    "terminal.ansiBrightBlue": "{{ ansi.r-16-bright-blue-xxxxxxxx }}",
+    "terminal.ansiBrightCyan": "{{ ansi.r-14-bright-cyan-xxxxxxxx }}",
+    "terminal.ansiBrightGreen": "{{ ansi.r-13-bright-green-xxxxxxx }}",
+    "terminal.ansiBrightMagent": "{{ ansi.r-05-bright-magenta-xxxxx }}",
+    "terminal.ansiBrightRed": "{{ ansi.r-02-bright-red-xxxxxxxxx }}",
+    "terminal.ansiBrightWhite": "{{ ansi.wb-00-white-xxxxxxxxxxxxx }}",
+    "terminal.ansiBrightYellow": "{{ ansi.r-08-bright-yellow-xxxxxx }}",
+    "terminal.ansiCyan": "{{ ansi.r-15-cyan-xxxxxxxxxxxxxxx }}",
+    "terminal.ansiGreen": "{{ ansi.r-10-green-xxxxxxxxxxxxxx }}",
+    "terminal.ansiMagent": "{{ ansi.r-04-magenta-xxxxxxxxxxxx }}",
+    "terminal.ansiRed": "{{ ansi.r-00-red-xxxxxxxxxxxxxxxx }}",
+    "terminal.ansiWhite": "{{ ansi.wb-00-white-xxxxxxxxxxxxx }}",
+    "terminal.ansiYellow": "{{ ansi.wb-13-black-xxxxxxxxxxxxx }}",
+    "terminal.background": "{{ ansi.wb-11_very-dark-gray-xxxx }}",
+    "terminal.border": "{{ ansi.wb-05-bright-gray-xxxxxxx }}",
+    "terminal.foreground": "{{ ansi.wb-01-very-bright-gray-xx }}",
+    "terminal.selectionBackground": "{{ ansi.r-09-bright-yellow-alpha- }}",
+    "terminalCursor.background": "{{ ansi.r-02-bright-red-xxxxxxxxx }}",
+    "terminalCursor.foreground": "{{ ansi.r-02-bright-yellow-xxxxxxxxx }}",
+    "titleBar.activeBackground": "{{ r-12-green-alpha-xxxxxxxx }}",
+    "titleBar.activeForeground": "{{ r-10-green-xxxxxxxxxxxxxx }}",
+    "titleBar.inactiveBackground": "{{ wb-12-charcoal-xxxxxxxxxx }}",
+    "titleBar.inactiveForeground": "{{ wb-01-very-bright-gray-xx }}"
+  },
+  "tokenColors": [
+    {
+      "name": "Generic <comment> matches",
+      "scope": "comment",
+      "settings": {
+        "foreground": "{{ syntax.scope.comment.wb-06-bright-midnight-xxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Generic <constant> matches",
+      "scope": "constant",
+      "settings": {
+        "foreground": "{{ syntax.scope.constant.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Makes true/false booleans, null, undefined blue",
+      "scope": "constant.language",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Regex, Escape characters `\\`",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "{{ syntax.scope.constant.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Named entities",
+      "scope": "entity.name",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}",
+        "fontStyle": "{{ tagStyle }}"
+      }
+    },
+    {
+      "name": "Static types",
+      "scope": [
+        "entity.name.type",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Variable names",
+      "scope": [
+        "entity.name.variable",
+        "variable"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Function names",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Class extensions eg extends `Component`",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "YAML keys",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Invalid or illegal",
+      "scope": "invalid.illegal",
+      "settings": {
+        "border-bottom": "1px dashed rgba(255, 44, 109, 0.5)"
+      }
+    },
+    {
+      "name": "Invalid or deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "background-foreground": "rgba(255, 44, 109, 0.62)"
+      }
+    },
+    {
+      "name": "Generic <keyword> matches",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-04-magenta-xxxxxxxxxxxx }}",
+        "fontStyle": "{{ keywordStyle }}"
+      }
+    },
+    {
+      "name": "Make operators light gray by default",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.wb-01-very-bright-gray-xx }}"
+      }
+    },
+    {
+      "name": "Special operators like `import`, `return`, `if`, `else`, `new` keyword",
+      "scope": [
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.logical",
+        "keyword.operator.delete"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Make logical operators light orange, eg ||, ===",
+      "scope": "keyword.operator.logical, keyword.operator.comparison",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup headings",
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup bold",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup italics",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-20-purple-xxxxxxxxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup code",
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code.block"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup links",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup punctuation definition bold",
+      "scope": "punctuation.definition.bold.markdown",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-08-bright-yellow-xxxxxx }}",
+        "font-weight": "bold"
+      }
+    },
+    {
+      "name": "Markup changes",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup deletes",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Italic Text",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-05-bright-magenta-xxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup punctuation definition italic",
+      "scope": "punctuation.definition.italic.markdown",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-04-magenta-xxxxxxxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup insert",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JS Class/Method decorators -> @ punctuation is orange",
+      "scope": "meta.decorator punctuation.decorator",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JS Class/Method decorators -> blue function name",
+      "scope": "meta.decorator variable",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Template expressions ${}",
+      "scope": "punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Key/value separators",
+      "scope": "punctuation.separator",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.wb-00-white-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Embedded section punctuation",
+      "scope": "punctuation.section.embedded",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup list punctuation",
+      "scope": "punctuation.definition.list",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Generic <storage> matches",
+      "scope": "storage",
+      "settings": {
+        "foreground": "{{ syntax.scope.storage.r-05-bright-magenta-xxxxx}}",
+        "fontStyle": "{{ keywordStyle }}"
+      }
+    },
+    {
+      "name": "Generic string match",
+      "scope": "string",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Provided (support) values",
+      "scope": "support",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Matches a Class reference when referenced later",
+      "scope": "support.class",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Matches MODULE, MODULE.EXPORTS",
+      "scope": "support.type.object.module.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Provided functions",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Provieded variables",
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}"
+      }
+    },
+    {
+      "name": "Object/JSON property names",
+      "scope": [
+        "support.type.property-name",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "CSS property names",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Generic <variable> matches",
+      "scope": "variable",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.wb-01-very-bright-gray-xx }}"
+      }
+    },
+    {
+      "name": "Function parameters",
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.wb-04-contrast-gray-xxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Destructuring assignment variables",
+      "scope": "meta.object-binding-pattern-variable.js variable",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Special treatment for CONSTANT variables and this, variable interpolation matches?",
+      "scope": "variable.other.constant, variable.language.this, variable.interpolation",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "Language variables",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Matches when an object is accessed.",
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "The accessed property match",
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.wb-01-very-bright-gray-xx }}"
+      }
+    },
+    {
+      "name": "Docker file `FROM`",
+      "scope": "keyword.other.special-method",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Expressions like @import",
+      "scope": "keyword.control.at-rule",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Style !important declarations",
+      "scope": "keyword.other.important",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-02-bright-red-xxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Variable interpolation",
+      "scope": "variable.interpolation",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "CSS tags",
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "CSS ID selectors",
+      "scope": "entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Pseudo CSS",
+      "scope": [
+        "entity.other.attribute-name.pseudo-element",
+        "entity.other.attribute-name.pseudo-class"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Property names",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.wb-11_very-dark-gray-xxxx }}"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable.scss",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-06-bright-magenta-alpha }}"
+      }
+    },
+    {
+      "name": "SCSS tags",
+      "scope": "entity.name.tag.reference.scss",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Units",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "CSS rem, vh, px, em, deg and percentage",
+      "scope": [
+        "keyword.other.unit.rem.css,",
+        "keyword.other.unit.vh.css,",
+        "keyword.other.unit.px.css,",
+        "keyword.other.unit.em.css,",
+        "keyword.other.unit.deg.css,",
+        "keyword.other.unit.percentage.css"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "HTML, Jade metas, tags, html, script and jade",
+      "scope": "meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Inline, block and localname",
+      "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "XML tags",
+      "scope": "entity.name.tag.xml, meta.tag.xml",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Vue tags",
+      "scope": "source.vue, entity.name.tag.pug, meta.tag.other",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Text pug",
+      "scope": "text.pug",
+      "settings": {
+        "foreground": "{{ syntax.scope.text.wb-00-white-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JS type class",
+      "scope": "entity.name.type.class.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-16-bright-blue-xxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JS control as",
+      "scope": "keyword.control.as.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "JS control from",
+      "scope": "keyword.control.from.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "JS control export",
+      "scope": "keyword.control.export.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.keyword.rr-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JS variable language this",
+      "scope": "variable.language.this.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS console",
+      "scope": "support.class.console.js",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS alias",
+      "scope": "variable.other.readwrite.alias.js.jsx",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.wb-04-contrast-gray-xxxxx }}"
+      }
+    },
+    {
+      "name": "JSX tags and components",
+      "scope": "entity.name.tag.js, support.class.component.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "JSX super",
+      "scope": "variable.language.super.js",
+      "settings": {
+        "foreground": "{{ syntax.scope.variable.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Make JSDoc comments font normal for better readablility",
+      "scope": "comment.block.documentation",
+      "settings": {
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Tags with type defs curly punctation",
+      "scope": "entity.name.type.instance.jsdoc punctuation.definition",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Type def and method/prop NAMES",
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.wb-03-brighter-gray-xxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Built in JSdoc block tags",
+      "scope": "comment.block storage",
+      "settings": {
+        "foreground": "{{ syntax.scope.comment.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "Custom doc tags, tag defaults, tag default strings",
+      "scope": "comment.block storage.custom, variable.other.jsdoc, variable.other.jsdoc punctuation.definition.string",
+      "settings": {
+        "foreground": "{{ syntax.scope.comment.r-06-bright-magenta-alpha }}"
+      }
+    },
+    {
+      "name": "Headings Punctuation",
+      "scope": "punctuation.definition.heading",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Headings Text",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.wb-04-contrast-gray-xxxxx }}"
+      }
+    },
+    {
+      "name": "Block Quotes",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup quotes",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-08-bright-yellow-xxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Inline code blocks `code`",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "List punctuation -",
+      "scope": "beginning.punctuation.definition.list",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-02-bright-red-xxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Fenced code blocks",
+      "scope": "markup.fenced_code.block.markdown punctuation.definition.markdown",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.wb-05-bright-gray-xxxxxxx }}"
+      }
+    },
+    {
+      "name": "Fenced code block languages",
+      "scope": "fenced_code.block.language",
+      "settings": {
+        "foreground": "{{ syntax.scope.markup.wb-05-bright-gray-xxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Other string links",
+      "scope": "string.other.link",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Markdown links",
+      "scope": "meta.link.inline.markdown",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-17-blue-xxxxxxxxxxxxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Text, HTML, Markdown string punctuation definitions",
+      "scope": "text.html.markdown punctuation.definition.string",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Component names",
+      "scope": "support.class.component",
+      "settings": {
+        "foreground": "{{ syntax.scope.support.r-05-bright-magenta-xxxxx }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML tag names",
+      "scope": "meta.tag.js entity.name.tag",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "HTML and Component attribute's name",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Tag attributes",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-10-green-xxxxxxxxxxxxxx }}",
+        "fontStyle": "{{ attributeStyle }}"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string.quoted",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Embedded template punctuation",
+      "scope": "string.template meta.embedded",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.wb-11_very-dark-gray-xxxx }}"
+      }
+    },
+    {
+      "name": "Regex",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Markup link descriptions",
+      "scope": "string.other.link",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Parent match",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Hit word boundary and back references",
+      "scope": "string.regexp keyword, string.regexp keyword.control",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Operators like +, ?",
+      "scope": "string.regexp keyword.operator",
+      "settings": {
+        "foreground": "{{ syntax.scope.string.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "Tagged template hbs``",
+      "scope": "meta.source.handlebars entity.name.tag",
+      "settings": {
+        "foreground": "{{ syntax.scope.meta.r-16-bright-blue-xxxxxxxx }}"
+      }
+    },
+    {
+      "name": "\\{\\{, \\{\\{\\{, () and </>",
+      "scope": "punctuation.definition.expression, punctuation.definition.subexpression, punctuation.definition.block.unescaped, punctuation.definition.tag",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "{{ syntax.scope.punctuation.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Tag brackets",
+      "scope": "punctuation.definition.tag",
+      "settings": {
+        "foreground": "{{ syntax.scope.punctuation.r-02-bright-red-xxxxxxxxx }}",
+        "fontStyle": "{{ tagStyle }}"
+      }
+    },
+    {
+      "name": "Expression Name,",
+      "scope": "entity.name.function.expression",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-04-magenta-xxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Unescaped value",
+      "scope": "entity.unescaped.expression",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-20-purple-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Matches pipes in as expressions",
+      "scope": "constant.other.symbol",
+      "settings": {
+        "foreground": "{{ syntax.scope.constant.r-10-green-xxxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Expression parameter NAME",
+      "scope": "entity.expression variable.parameter.name",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Expression parameter VALUE",
+      "scope": "entity.expression variable.parameter.value",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-16-bright-blue-xxxxxxxx }}"
+      }
+    },
+    {
+      "name": "Ember built in helpers",
+      "scope": "entity.expression support.function.builtin",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-05-bright-magenta-xxxxx }}"
+      }
+    },
+    {
+      "name": "HTML tag names",
+      "scope": "entity.name.tag.html",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
+      }
+    },
+    {
+      "name": "HTML attribute NAME",
+      "scope": "entity.other.attribute-name.handlebars",
+      "settings": {
+        "foreground": "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
+      }
+    }
+  ]
+}
