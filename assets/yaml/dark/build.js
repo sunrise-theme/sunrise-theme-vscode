@@ -3,6 +3,7 @@ const fs = require("fs");
 const js_yaml = require("js-yaml");
 const path = require("path");
 const mustache = require("mustache");
+const fmtjson = require('fmtjson');
 
 const colors = js_yaml.safeLoad(fs.readFileSync("./assets/yaml/dark/colors.yaml"));
 const colors_template = JSON.stringify(js_yaml.safeLoad(fs.readFileSync("./assets/yaml/dark/colors.yaml")));
@@ -29,3 +30,11 @@ for (let themeName of themeNames) {
     const theme = mustache.render(template, { ...header, ...ui_and_synatx });
     fs.writeFileSync(`./dists/dark/${themeName}.json`, theme);
 }
+
+fmtjson([
+    "./assets/json/dark/colors.json",
+    "./assets/json/dark/template.json",
+    "./dists/dark/sunrise-dark.json",
+    "./dists/dark/sunrise-dark-bold.json",
+    "./dists/dark/sunrise-dark-italic.json"
+], { sort: false });
