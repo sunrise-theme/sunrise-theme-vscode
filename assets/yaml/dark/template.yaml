@@ -809,3 +809,103 @@ tokenColors:
   scope: variable.other.readwrite.alias.js.jsx
   settings:
     foreground: "{{ syntax.scope.variable.wb-04-contrast-gray-xxxxx }}"
+
+# -----------------------------------------------------------------------------
+# JSX
+# -----------------------------------------------------------------------------
+- name: JSX tags and components
+  scope: entity.name.tag.js, support.class.component.js
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: JSX super
+  scope: variable.language.super.js
+  settings:
+    foreground: "{{ syntax.scope.variable.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+- name: Make JSDoc comments font normal for better readablility
+  scope: comment.block.documentation
+  settings:
+    fontStyle: normal
+
+- name: Tags with type defs curly punctation
+  scope: entity.name.type.instance.jsdoc punctuation.definition
+  settings:
+    foreground: "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+    fontStyle: italic
+
+- name: Type def and method/prop NAMES
+  scope: entity.name.type.instance.jsdoc
+  settings:
+    foreground: "{{ syntax.scope.entity.wb-03-brighter-gray-xxxxx }}"
+    fontStyle: italic
+
+- name: Built in JSdoc block tags
+  scope: comment.block storage
+  settings:
+    foreground: "{{ syntax.scope.comment.r-08-bright-yellow-xxxxxx }}"
+
+- name: Custom doc tags, tag defaults, tag default strings
+  scope: comment.block storage.custom, variable.other.jsdoc, variable.other.jsdoc punctuation.definition.string
+  settings:
+    foreground: "{{ syntax.scope.comment.r-06-bright-magenta-alpha }}"
+
+- name: Headings Punctuation
+  scope: punctuation.definition.heading
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: Headings Text
+  scope: entity.name.section.markdown
+  settings:
+    foreground: "{{ syntax.scope.entity.wb-04-contrast-gray-xxxxx }}"
+
+- name: Block Quotes
+  scope: markup.quote
+  settings:
+    foreground: "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Markup quotes
+  scope: markup.quote
+  settings:
+    foreground: "{{ syntax.scope.markup.r-08-bright-yellow-xxxxxx }}"
+    fontStyle: italic
+
+- name: Inline code blocks `code`
+  scope: markup.inline.raw
+  settings:
+    foreground: "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}"
+    fontStyle: italic
+
+- name: List punctuation -
+  scope: beginning.punctuation.definition.list
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-02-bright-red-xxxxxxxxx }}"
+
+- name: Fenced code blocks
+  scope: markup.fenced_code.block.markdown punctuation.definition.markdown
+  settings:
+    foreground: "{{ syntax.scope.markup.wb-05-bright-gray-xxxxxxx }}"
+
+- name: Fenced code block languages
+  scope: fenced_code.block.language
+  settings:
+    foreground: "{{ syntax.scope.markup.wb-05-bright-gray-xxxxxxx }}"
+    fontStyle: italic
+
+- name: Other string links
+  scope: string.other.link
+  settings:
+    foreground: "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}"
+    fontStyle: normal
+
+- name: Markdown links
+  scope: meta.link.inline.markdown
+  settings:
+    foreground: "{{ syntax.scope.meta.r-17-blue-xxxxxxxxxxxxxxx }}"
+    fontStyle: italic
+
+- name: Text, HTML, Markdown string punctuation definitions
+  scope: text.html.markdown punctuation.definition.string
+  settings:
+    foreground: "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
