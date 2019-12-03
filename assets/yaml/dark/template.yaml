@@ -335,11 +335,11 @@ colors:
   # textLink.foreground: TODO
   # textPreformat.foreground: TODO
   # textSeparator.foreground: TODO
-  # titleBar.activeBackground: TODO
-  # titleBar.activeForeground: TODO
+  titleBar.activeBackground: "{{ r-12-green-alpha-xxxxxxxx }}"
+  titleBar.activeForeground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   # titleBar.border: TODO
-  # titleBar.inactiveBackground: TODO
-  # titleBar.inactiveForeground: TODO
+  titleBar.inactiveBackground: "{{ wb-12-charcoal-xxxxxxxxxx }}"
+  titleBar.inactiveForeground: "{{ wb-01-very-bright-gray-xx }}"
   # tree.indentGuidesStroke: TODO
   # walkThrough.embeddedEditorBackground: TODO
   # welcomePage.background: TODO
