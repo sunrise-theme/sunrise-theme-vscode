@@ -24,6 +24,9 @@ function mkdirsSync(dirname) {
 mkdirsSync("./assets/json/dark");
 mkdirsSync("./dists/dark");
 
+fs.writeFileSync("./assets/json/dark/colors.json", colors_template);
+fs.writeFileSync("./assets/json/dark/template.json", template);
+
 const themeNames = ["sunrise-dark", "sunrise-dark-bold", "sunrise-dark-italic"];
 for (let themeName of themeNames) {
     const header = js_yaml.safeLoad(fs.readFileSync(`./assets/yaml/dark/${themeName}.yaml`));
