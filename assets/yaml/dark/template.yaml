@@ -33,45 +33,45 @@ colors:
   # debugToolBar.border: TODO
   # descriptionForeground: TODO
   # diffEditor.border: TODO
-  # diffEditor.insertedTextBackground: TODO
+  diffEditor.insertedTextBackground: "{{ r-11-diff-green-xxxxxxxxx }}"
   # diffEditor.insertedTextBorder: TODO
-  # diffEditor.removedTextBackground: TODO
+  diffEditor.removedTextBackground: "{{ r-03-diff-red-xxxxxxxxxxx }}"
   # diffEditor.removedTextBorder: TODO
   # dropdown.background: TODO
   # dropdown.border: TODO
   # dropdown.foreground: TODO
   # dropdown.listBackground: TODO
-  # editor.background: TODO
-  # editor.findMatchBackground: TODO
+  editor.background: "{{ wb-11_very-dark-gray-xxxx }}"
+  editor.findMatchBackground: "{{ r-19-purple-alpha-xxxxxxx }}"
   # editor.findMatchBorder: TODO
-  # editor.findMatchHighlightBackground: TODO
+  editor.findMatchHighlightBackground: "{{ r-09-bright-yellow-alpha- }}"
   # editor.findMatchHighlightBorder: TODO
   # editor.findRangeHighlightBackground: TODO
   # editor.findRangeHighlightBorder: TODO
   # editor.focusedStackFrameHighlightBackground: TODO
-  # editor.foreground: TODO
+  editor.foreground: "{{ wb-01-very-bright-gray-xx }}"
   # editor.hoverHighlightBackground: TODO
-  # editor.inactiveSelectionBackground: TODO
-  # editor.lineHighlightBackground: TODO
+  editor.inactiveSelectionBackground: "{{ r-09-bright-yellow-alpha- }}"
+  editor.lineHighlightBackground: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
   # editor.lineHighlightBorder: TODO
   # editor.rangeHighlightBackground: TODO
   # editor.rangeHighlightBorder: TODO
-  # editor.selectionBackground: TODO
-  # editor.selectionHighlightBackground: TODO
+  editor.selectionBackground: "{{ r-09-bright-yellow-alpha- }}"
+  editor.selectionHighlightBackground: "{{ r-09-bright-yellow-alpha- }}"
   # editor.selectionHighlightBorder: TODO
   # editor.snippetFinalTabstopHighlightBackground: TODO
   # editor.snippetFinalTabstopHighlightBorder: TODO
   # editor.snippetTabstopHighlightBackground: TODO
   # editor.stackFrameHighlightBackground: TODO
-  # editor.wordHighlightBackground: TODO
+  editor.wordHighlightBackground: "{{ r-09-bright-yellow-alpha- }}"
   # editor.wordHighlightBorder: TODO
-  # editor.wordHighlightStrongBackground: TODO
+  editor.wordHighlightStrongBackground: "{{ r-06-bright-magenta-alpha }}"
   # editor.wordHighlightStrongBorder: TODO
-  # editorCodeLens.foreground: TODO
+  editorCodeLens.foreground: "{{ r-09-bright-yellow-alpha- }}"
   # editorCursor.background: TODO
-  # editorCursor.foreground: TODO
-  # editorError.border: TODO
-  # editorError.foreground: TODO
+  editorCursor.foreground: "{{ r-02-bright-red-xxxxxxxxx }}"
+  editorError.border: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+  editorError.foreground: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
   # editorGroup.border: TODO
   # editorGroup.dropBackground: TODO
   # editorGroup.emptyBackground: TODO
@@ -79,14 +79,14 @@ colors:
   # editorGroupHeader.noTabsBackground: TODO
   # editorGroupHeader.tabsBackground: TODO
   # editorGroupHeader.tabsBorder: TODO
-  # editorGutter.addedBackground: TODO
+  editorGutter.addedBackground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   # editorGutter.background: TODO
   # editorGutter.commentRangeForeground: TODO
-  # editorGutter.deletedBackground: TODO
-  # editorGutter.modifiedBackground: TODO
+  editorGutter.deletedBackground: "{{ r-02-bright-red-xxxxxxxxx }}"
+  editorGutter.modifiedBackground: "{{ r-08-bright-yellow-xxxxxx }}"
   # editorHint.border: TODO
   # editorHint.foreground: TODO
-  # editorHoverWidget.background: TODO
+  editorHoverWidget.background: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
   # editorHoverWidget.border: TODO
   # editorHoverWidget.statusBarBackground: TODO
   # editorIndentGuide.activeBackground: TODO
@@ -102,36 +102,36 @@ colors:
   # editorMarkerNavigationError.background: TODO
   # editorMarkerNavigationInfo.background: TODO
   # editorMarkerNavigationWarning.background: TODO
-  # editorOverviewRuler.addedForeground: TODO
-  # editorOverviewRuler.border: TODO
+  editorOverviewRuler.addedForeground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  editorOverviewRuler.border: "{{ wb-14-black-xxxxxxxxxxxxx }}"
   # editorOverviewRuler.bracketMatchForeground: TODO
   # editorOverviewRuler.commonContentForeground: TODO
   # editorOverviewRuler.currentContentForeground: TODO
-  # editorOverviewRuler.deletedForeground: TODO
-  # editorOverviewRuler.errorForeground: TODO
+  editorOverviewRuler.deletedForeground: "{{ r-02-bright-red-xxxxxxxxx }}"
+  editorOverviewRuler.errorForeground: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
   # editorOverviewRuler.findMatchForeground: TODO
   # editorOverviewRuler.incomingContentForeground: TODO
-  # editorOverviewRuler.infoForeground: TODO
-  # editorOverviewRuler.modifiedForeground: TODO
+  editorOverviewRuler.infoForeground: "{{ r-16-bright-blue-xxxxxxxx }}"
+  editorOverviewRuler.modifiedForeground: "{{ r-08-bright-yellow-xxxxxx }}"
   # editorOverviewRuler.rangeHighlightForeground: TODO
   # editorOverviewRuler.selectionHighlightForeground: TODO
-  # editorOverviewRuler.warningForeground: TODO
+  editorOverviewRuler.warningForeground: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
   # editorOverviewRuler.wordHighlightForeground: TODO
   # editorOverviewRuler.wordHighlightStrongForeground: TODO
   # editorPane.background: TODO
-  # editorRuler.foreground: TODO
+  editorRuler.foreground: "{{ r-19-purple-alpha-xxxxxxx }}"
   # editorSuggestWidget.background: TODO
   # editorSuggestWidget.border: TODO
   # editorSuggestWidget.foreground: TODO
   # editorSuggestWidget.highlightForeground: TODO
-  # editorSuggestWidget.selectedBackground: TODO
+  editorSuggestWidget.selectedBackground: "{{ r-12-green-alpha-xxxxxxxx }}"
   # editorUnnecessaryCode.border: TODO
   # editorUnnecessaryCode.opacity: TODO
-  # editorWarning.border: TODO
-  # editorWarning.foreground: TODO
-  # editorWhitespace.foreground: TODO
-  # editorWidget.background: TODO
-  # editorWidget.border: TODO
+  editorWarning.border: "{{ r-02-bright-red-xxxxxxxxx }}"
+  editorWarning.foreground: "{{ r-02-bright-red-xxxxxxxxx }}"
+  editorWhitespace.foreground: "{{ wb-07-steel-gray-xxxxxxxx }}"
+  editorWidget.background: "{{ wb-11_very-dark-gray-xxxx }}"
+  editorWidget.border: "{{ wb-09-gray-xxxxxxxxxxxxxx }}"
   # editorWidget.foreground: TODO
   # editorWidget.resizeBorder: TODO
   # errorForeground: TODO
