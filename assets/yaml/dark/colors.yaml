@@ -67,3 +67,95 @@ ansi:
   wb-05-bright-gray-xxxxxxx: "{{ wb-05-bright-gray-xxxxxxx }}"
   wb-11_very-dark-gray-xxxx: "{{ wb-11_very-dark-gray-xxxx }}"
   wb-13-black-xxxxxxxxxxxxx: "{{ wb-13-black-xxxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# Syntax: Scope Naming[1]
+# -----------------------------------------------------------------------------
+syntax:
+  scope:
+    comment:
+      r-06-bright-magenta-alpha: "{{ r-06-bright-magenta-alpha }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      wb-06-bright-midnight-xxx: "{{ wb-06-bright-midnight-xxx }}"
+    constant:
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-10-green-xxxxxxxxxxxxxx: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+    entity:
+      r-00-red-xxxxxxxxxxxxxxxx: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-10-green-xxxxxxxxxxxxxx: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+      r-16-bright-blue-xxxxxxxx: "{{ r-16-bright-blue-xxxxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+      r-20-purple-xxxxxxxxxxxxx: "{{ r-20-purple-xxxxxxxxxxxxx }}"
+      wb-03-brighter-gray-xxxxx: "{{ wb-03-brighter-gray-xxxxx }}"
+      wb-04-contrast-gray-xxxxx: "{{ wb-04-contrast-gray-xxxxx }}"
+    invalid:
+      r-00-red-alpha-xxxxxxxxxx: "{{ r-00-red-alpha-xxxxxxxxxx }}"
+    keyword:
+      r-02-bright-red-xxxxxxxxx: "{{ r-02-bright-red-xxxxxxxxx }}"
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+      r-20-purple-xxxxxxxxxxxxx: "{{ r-20-purple-xxxxxxxxxxxxx }}"
+      wb-01-very-bright-gray-xx: "{{ wb-01-very-bright-gray-xx }}"
+    markup:
+      r-00-red-xxxxxxxxxxxxxxxx: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-10-green-xxxxxxxxxxxxxx: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+      r-20-purple-xxxxxxxxxxxxx: "{{ r-20-purple-xxxxxxxxxxxxx }}"
+      wb-05-bright-gray-xxxxxxx: "{{ wb-05-bright-gray-xxxxxxx }}"
+    meta:
+      r-00-red-xxxxxxxxxxxxxxxx: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-16-bright-blue-xxxxxxxx: "{{ r-16-bright-blue-xxxxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+    punctuation:
+      r-02-bright-red-xxxxxxxxx: "{{ r-02-bright-red-xxxxxxxxx }}"
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-10-green-xxxxxxxxxxxxxx: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+      wb-00-white-xxxxxxxxxxxxx: "{{ wb-00-white-xxxxxxxxxxxxx }}"
+      wb-05-bright-gray-xxxxxxx: "{{ wb-05-bright-gray-xxxxxxx }}"
+    source:
+      r-00-red-xxxxxxxxxxxxxxxx: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+    storage:
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-07-yellow-xxxxxxxxxxxxx: "{{ r-07-yellow-xxxxxxxxxxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+    string:
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-10-green-xxxxxxxxxxxxxx: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+      wb-11_very-dark-gray-xxxx: "{{ wb-11_very-dark-gray-xxxx }}"
+    support:
+      r-00-red-xxxxxxxxxxxxxxxx: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+      r-20-purple-xxxxxxxxxxxxx: "{{ r-20-purple-xxxxxxxxxxxxx }}"
+      wb-11_very-dark-gray-xxxx: "{{ wb-11_very-dark-gray-xxxx }}"
+    text:
+      r-08-bright-yellow-xxxxxx: "{{ r-08-bright-yellow-xxxxxx }}"
+      wb-00-white-xxxxxxxxxxxxx: "{{ wb-00-white-xxxxxxxxxxxxx }}"
+    variable:
+      r-04-magenta-xxxxxxxxxxxx: "{{ r-04-magenta-xxxxxxxxxxxx }}"
+      r-05-bright-magenta-xxxxx: "{{ r-05-bright-magenta-xxxxx }}"
+      r-17-blue-xxxxxxxxxxxxxxx: "{{ r-17-blue-xxxxxxxxxxxxxxx }}"
+      wb-01-very-bright-gray-xx: "{{ wb-01-very-bright-gray-xx }}"
+      wb-04-contrast-gray-xxxxx: "{{ wb-04-contrast-gray-xxxxx }}"
+
+# Help:
+#   - [1] http://www.sublimetext.com/docs/3/scope_naming.html
