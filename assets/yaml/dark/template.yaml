@@ -437,10 +437,98 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Keywords
 # -----------------------------------------------------------------------------
+- name: Generic <keyword> matches
+  scope: keyword
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-04-magenta-xxxxxxxxxxxx }}"
+    fontStyle: "{{ keywordStyle }}"
+
+- name: Make operators light gray by default
+  scope: keyword.operator
+  settings:
+    foreground: "{{ syntax.scope.keyword.wb-01-very-bright-gray-xx }}"
+
+- name: Special operators like `import`, `return`, `if`, `else`, `new` keyword
+  scope:
+  - keyword.control
+  - keyword.operator.new
+  - keyword.operator.expression
+  - keyword.operator.logical
+  - keyword.operator.delete
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-04-magenta-xxxxxxxxxxxx }}"
+
+- name: Make logical operators light orange, eg ||, ===
+  scope: keyword.operator.logical, keyword.operator.comparison
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-08-bright-yellow-xxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Markup
 # -----------------------------------------------------------------------------
+- name: Markup headings
+  scope:
+  - markup.heading
+  - entity.name.section
+  settings:
+    foreground: "{{ syntax.scope.markup.r-20-purple-xxxxxxxxxxxxx }}"
+
+- name: Markup bold
+  scope: markup.bold
+  settings:
+    foreground: "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}"
+    fontStyle: bold
+
+- name: Markup italics
+  scope: markup.italic
+  settings:
+    foreground: "{{ syntax.scope.markup.r-20-purple-xxxxxxxxxxxxx }}"
+    fontStyle: italic
+
+- name: Markup code
+  scope:
+  - markup.inline.raw
+  - markup.fenced_code.block
+  settings:
+    foreground: "{{ syntax.scope.markup.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Markup links
+  scope: markup.underline.link
+  settings:
+    foreground: "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: Markup punctuation definition bold
+  scope: punctuation.definition.bold.markdown
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-08-bright-yellow-xxxxxx }}"
+    font-weight: bold
+
+- name: Markup changes
+  scope: markup.changed
+  settings:
+    foreground: "{{ syntax.scope.markup.r-04-magenta-xxxxxxxxxxxx }}"
+
+- name: Markup deletes
+  scope: markup.deleted
+  settings:
+    foreground: "{{ syntax.scope.markup.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: Italic Text
+  scope: markup.italic
+  settings:
+    foreground: "{{ syntax.scope.markup.r-05-bright-magenta-xxxxx }}"
+    fontStyle: italic
+
+- name: Markup punctuation definition italic
+  scope: punctuation.definition.italic.markdown
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-04-magenta-xxxxxxxxxxxx }}"
+    fontStyle: italic
+
+- name: Markup insert
+  scope: markup.inserted
+  settings:
+    foreground: "{{ syntax.scope.markup.r-10-green-xxxxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Meta
