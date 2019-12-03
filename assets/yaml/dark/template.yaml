@@ -586,10 +586,72 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Support
 # -----------------------------------------------------------------------------
+- name: Provided (support) values
+  scope: support
+  settings:
+    foreground: "{{ syntax.scope.support.r-08-bright-yellow-xxxxxx }}"
+
+- name: Matches a Class reference when referenced later
+  scope: support.class
+  settings:
+    foreground: "{{ syntax.scope.support.r-08-bright-yellow-xxxxxx }}"
+
+- name: Matches MODULE, MODULE.EXPORTS
+  scope: support.type.object.module.js
+  settings:
+    foreground: "{{ syntax.scope.support.r-20-purple-xxxxxxxxxxxxx }}"
+
+- name: Provided functions
+  scope: support.function
+  settings:
+    foreground: "{{ syntax.scope.support.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+- name: Provieded variables
+  scope: support.variable
+  settings:
+    foreground: "{{ syntax.cranberry }}{{ alpha.high }}"
+
+- name: Object/JSON property names
+  scope:
+  - support.type.property-name
+  - meta.object-literal.key
+  settings:
+    foreground: "{{ syntax.scope.support.r-20-purple-xxxxxxxxxxxxx }}"
+
+- name: CSS property names
+  scope: support.type.property-name.css
+  settings:
+    foreground: "{{ syntax.scope.support.r-00-red-xxxxxxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Variables && Parameters
 # -----------------------------------------------------------------------------
+- name: Generic <variable> matches
+  scope: variable
+  settings:
+    foreground: "{{ syntax.scope.variable.wb-01-very-bright-gray-xx }}"
+
+- name: Function parameters
+  scope: variable.parameter
+  settings:
+    foreground: "{{ syntax.scope.variable.wb-04-contrast-gray-xxxxx }}"
+    fontStyle: italic
+
+- name: Destructuring assignment variables
+  scope: meta.object-binding-pattern-variable.js variable
+  settings:
+    foreground: "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Special treatment for CONSTANT variables and this, variable interpolation matches?
+  scope: variable.other.constant, variable.language.this, variable.interpolation
+  settings:
+    foreground: "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}"
+
+- name: Language variables
+  scope: variable.language
+  settings:
+    foreground: "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}"
+    fontStyle: italic
 
 # =============================================================================
 # Syntax highlighting colors for extended languages, variables or keywords
