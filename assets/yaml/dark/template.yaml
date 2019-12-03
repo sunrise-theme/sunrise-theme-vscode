@@ -909,3 +909,101 @@ tokenColors:
   scope: text.html.markdown punctuation.definition.string
   settings:
     foreground: "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# Regex Tokens
+# -----------------------------------------------------------------------------
+- name: Strings
+  scope:
+  - string.quoted
+  - string.template
+  settings:
+    foreground: "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}"
+
+- name: Embedded template punctuation
+  scope: string.template meta.embedded
+  settings:
+    foreground: "{{ syntax.scope.string.wb-11_very-dark-gray-xxxx }}"
+
+- name: Regex
+  scope: string.regexp
+  settings:
+    foreground: "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}"
+
+- name: Markup link descriptions
+  scope: string.other.link
+  settings:
+    foreground: "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+- name: Parent match
+  scope: string.regexp
+  settings:
+    foreground: "{{ syntax.scope.string.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+- name: Hit word boundary and back references
+  scope: string.regexp keyword, string.regexp keyword.control
+  settings:
+    foreground: "{{ syntax.scope.string.r-04-magenta-xxxxxxxxxxxx }}"
+    fontStyle: normal
+
+- name: Operators like +, ?
+  scope: string.regexp keyword.operator
+  settings:
+    foreground: "{{ syntax.scope.string.r-05-bright-magenta-xxxxx }}"
+
+- name: Tagged template hbs``
+  scope: meta.source.handlebars entity.name.tag
+  settings:
+    foreground: "{{ syntax.scope.meta.r-16-bright-blue-xxxxxxxx }}"
+
+- name: \{\{, \{\{\{, () and </>
+  scope: punctuation.definition.expression, punctuation.definition.subexpression, punctuation.definition.block.unescaped, punctuation.definition.tag
+  settings:
+    fontStyle: italic
+    foreground: "{{ syntax.scope.punctuation.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Tag brackets
+  scope: punctuation.definition.tag
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-02-bright-red-xxxxxxxxx }}"
+    fontStyle: "{{ tagStyle }}"
+
+- name: Expression Name,
+  scope: entity.name.function.expression
+  settings:
+    foreground: "{{ syntax.scope.entity.r-04-magenta-xxxxxxxxxxxx }}"
+
+- name: Unescaped value
+  scope: entity.unescaped.expression
+  settings:
+    foreground: "{{ syntax.scope.entity.r-20-purple-xxxxxxxxxxxxx }}"
+
+- name: Matches pipes in as expressions
+  scope: constant.other.symbol
+  settings:
+    foreground: "{{ syntax.scope.constant.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: Expression parameter NAME
+  scope: entity.expression variable.parameter.name
+  settings:
+    foreground: "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Expression parameter VALUE
+  scope: entity.expression variable.parameter.value
+  settings:
+    foreground: "{{ syntax.scope.entity.r-16-bright-blue-xxxxxxxx }}"
+
+- name: Ember built in helpers
+  scope: entity.expression support.function.builtin
+  settings:
+    foreground: "{{ syntax.scope.entity.r-05-bright-magenta-xxxxx }}"
+
+- name: HTML tag names
+  scope: entity.name.tag.html
+  settings:
+    foreground: "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
+
+- name: HTML attribute NAME
+  scope: entity.other.attribute-name.handlebars
+  settings:
+    foreground: "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
