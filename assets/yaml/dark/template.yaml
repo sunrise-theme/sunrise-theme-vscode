@@ -656,4 +656,15 @@ tokenColors:
 # =============================================================================
 # Syntax highlighting colors for extended languages, variables or keywords
 # =============================================================================
-# TODO
+# -----------------------------------------------------------------------------
+# Objects
+# -----------------------------------------------------------------------------
+- name: Matches when an object is accessed.
+  scope: variable.other.object
+  settings:
+    foreground: "{{ syntax.scope.variable.r-05-bright-magenta-xxxxx }}"
+
+- name: The accessed property match
+  scope: variable.other.property
+  settings:
+    foreground: "{{ syntax.scope.variable.wb-01-very-bright-gray-xx }}"
