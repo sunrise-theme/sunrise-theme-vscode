@@ -694,3 +694,54 @@ tokenColors:
   scope: variable.interpolation
   settings:
     foreground: "{{ syntax.scope.variable.r-04-magenta-xxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# CSS
+# -----------------------------------------------------------------------------
+- name: CSS tags
+  scope: entity.name.tag.css
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: CSS ID selectors
+  scope: entity.other.attribute-name.id
+  settings:
+    foreground: "{{ syntax.scope.entity.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: Pseudo CSS
+  scope:
+  - entity.other.attribute-name.pseudo-element
+  - entity.other.attribute-name.pseudo-class
+  settings:
+    foreground: "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Property names
+  scope: support.type.property-name.css
+  settings:
+    foreground: "{{ syntax.scope.support.wb-11_very-dark-gray-xxxx }}"
+
+- name: Variables
+  scope: variable.scss
+  settings:
+    foreground: "{{ syntax.scope.variable.r-06-bright-magenta-alpha }}"
+
+- name: SCSS tags  
+  scope: entity.name.tag.reference.scss
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: Units
+  scope: keyword.other.unit
+  settings:
+    foreground: "{{ syntax.scope.entity.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: CSS rem, vh, px, em, deg and percentage
+  scope: 
+  - keyword.other.unit.rem.css, 
+  - keyword.other.unit.vh.css, 
+  - keyword.other.unit.px.css, 
+  - keyword.other.unit.em.css, 
+  - keyword.other.unit.deg.css, 
+  - keyword.other.unit.percentage.css
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-07-yellow-xxxxxxxxxxxxx }}"
