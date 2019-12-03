@@ -354,10 +354,29 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Comments
 # -----------------------------------------------------------------------------
+- name: Generic <comment> matches
+  scope: comment
+  settings:
+    foreground: "{{ syntax.scope.comment.wb-06-bright-midnight-xxx }}"
+    fontStyle: italic
 
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
+- name: Generic <constant> matches
+  scope: constant
+  settings:
+    foreground: "{{ syntax.scope.constant.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Makes true/false booleans, null, undefined blue
+  scope: constant.language
+  settings:
+    fontStyle: italic
+
+- name: Regex, Escape characters `\`
+  scope: constant.character.escape
+  settings:
+    foreground: "{{ syntax.scope.constant.r-17-blue-xxxxxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Entities
