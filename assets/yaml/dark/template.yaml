@@ -676,3 +676,21 @@ tokenColors:
   scope: keyword.other.special-method
   settings:
     foreground: "{{ syntax.scope.keyword.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# Styles (CSS/SCSS/LESS)
+# -----------------------------------------------------------------------------
+- name: Expressions like @import
+  scope: keyword.control.at-rule
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-20-purple-xxxxxxxxxxxxx }}"
+
+- name: Style !important declarations
+  scope: keyword.other.important
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-02-bright-red-xxxxxxxxx }}"
+
+- name: Variable interpolation
+  scope: variable.interpolation
+  settings:
+    foreground: "{{ syntax.scope.variable.r-04-magenta-xxxxxxxxxxxx }}"
