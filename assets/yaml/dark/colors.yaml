@@ -22,3 +22,22 @@ r-17-blue-xxxxxxxxxxxxxxx: "#45A9F0"
 r-18-bright-purple-xxxxxx: "#BCAAFE"
 r-19-purple-alpha-xxxxxxx: "#B084EB80"
 r-20-purple-xxxxxxxxxxxxx: "#B084EB"
+
+# -----------------------------------------------------------------------------
+# From white to black
+# -----------------------------------------------------------------------------
+wb-00-white-xxxxxxxxxxxxx: "#FFFFFF"
+wb-01-very-bright-gray-xx: "#E6E6E6"
+wb-02-brighter-gray-alpha: "#CDCDCD1A"
+wb-03-brighter-gray-xxxxx: "#CDCDCD"
+wb-04-contrast-gray-xxxxx: "#BBBBBB"
+wb-05-bright-gray-xxxxxxx: "#757575"
+wb-06-bright-midnight-xxx: "#676B79"
+wb-07-steel-gray-xxxxxxxx: "#4E5260"
+wb-08-gray-alpha-xxxxxxxx: "#373B41B3"
+wb-09-gray-xxxxxxxxxxxxxx: "#373B41"
+wb-10-seal-xxxxxxxxxxxxxx: "#31353A"
+wb-11_very-dark-gray-xxxx: "#2A2C2D"
+wb-12-charcoal-xxxxxxxxxx: "#222223"
+wb-13-black-xxxxxxxxxxxxx: "#000000"
+wb-14-black-xxxxxxxxxxxxx: "#00000000"
