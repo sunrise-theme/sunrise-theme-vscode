@@ -137,15 +137,15 @@ colors:
   # errorForeground: TODO
   # extensionBadge.remoteBackground: TODO
   # extensionBadge.remoteForeground: TODO
-  # extensionButton.prominentBackground: TODO
-  # extensionButton.prominentForeground: TODO
-  # extensionButton.prominentHoverBackground: TODO
+  extensionButton.prominentBackground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  extensionButton.prominentForeground: "{{ wb-02-brighter-gray-alpha }}"
+  extensionButton.prominentHoverBackground: "{{ wb-06-bright-midnight-xxx }}"
   # focusBorder: TODO
   # foreground: TODO
   # gitDecoration.addedResourceForeground: TODO
   # gitDecoration.conflictingResourceForeground: TODO
   # gitDecoration.deletedResourceForeground: TODO
-  # gitDecoration.ignoredResourceForeground: TODO
+  gitDecoration.ignoredResourceForeground: "{{ wb-05-bright-gray-xxxxxxx }}"
   # gitDecoration.modifiedResourceForeground: TODO
   # gitDecoration.submoduleResourceForeground: TODO
   # gitDecoration.untrackedResourceForeground: TODO
