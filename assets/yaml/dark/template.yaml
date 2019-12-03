@@ -262,23 +262,23 @@ colors:
   # settings.textInputBackground: TODO
   # settings.textInputBorder: TODO
   # settings.textInputForeground: TODO
-  # sideBar.background: TODO
-  # sideBar.border: TODO
+  sideBar.background: "{{ wb-11_very-dark-gray-xxxx }}"
+  sideBar.border: "{{ wb-04-contrast-gray-xxxxx }}"
   # sideBar.dropBackground: TODO
-  # sideBar.foreground: TODO
+  sideBar.foreground: "{{ wb-12-charcoal-xxxxxxxxxx }}"
   # sideBarSectionHeader.background: TODO
   # sideBarSectionHeader.border: TODO
   # sideBarSectionHeader.foreground: TODO
   # sideBarTitle.foreground: TODO
-  # statusBar.background: TODO
+  statusBar.background: "{{ wb-12-charcoal-xxxxxxxxxx }}"
   # statusBar.border: TODO
-  # statusBar.debuggingBackground: TODO
-  # statusBar.debuggingBorder: TODO
+  statusBar.debuggingBackground: "{{ r-00-red-xxxxxxxxxxxxxxxx }}"
+  statusBar.debuggingBorder: "{{ wb-01-very-bright-gray-xx }}"
   # statusBar.debuggingForeground: TODO
-  # statusBar.foreground: TODO
-  # statusBar.noFolderBackground: TODO
+  statusBar.foreground: "{{ wb-01-very-bright-gray-xx }}"
+  statusBar.noFolderBackground: "{{ wb-11_very-dark-gray-xxxx }}"
   # statusBar.noFolderBorder: TODO
-  # statusBar.noFolderForeground: TODO
+  statusBar.noFolderForeground: "{{ wb-11_very-dark-gray-xxxx }}"
   # statusBarItem.activeBackground: TODO
   # statusBarItem.hoverBackground: TODO
   # statusBarItem.prominentBackground: TODO
