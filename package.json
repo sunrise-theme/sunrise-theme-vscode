@@ -6,6 +6,9 @@
   "repository": "https://github.com/sunrise-theme/sunrise-theme-vscode.git",
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start:dark": "node ./assets/yaml/dark/build.js" 
+  },
   "private": true,
   "devDependencies": {
     "fmtjson": "^4.0.6",
