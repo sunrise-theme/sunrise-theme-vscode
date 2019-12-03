@@ -1,0 +1,10 @@
+{
+  "name": "sunrise-theme-vscode",
+  "version": "1.0.0",
+  "description": "A beautifully fresh dual theme for Visual Studio Code",
+  "main": "build.js",
+  "repository": "https://github.com/sunrise-theme/sunrise-theme-vscode.git",
+  "author": "Seingshin Lee <seingshinlee@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
