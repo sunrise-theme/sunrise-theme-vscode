@@ -239,13 +239,13 @@ colors:
   # problemsErrorIcon.foreground: TODO
   # problemsInfoIcon.foreground: TODO
   # problemsWarningIcon.foreground: TODO
-  # progressBar.background: TODO
+  progressBar.background: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   # quickInput.background: TODO
   # quickInput.foreground: TODO
-  # scrollbar.shadow: TODO
-  # scrollbarSlider.activeBackground: TODO
-  # scrollbarSlider.background: TODO
-  # scrollbarSlider.hoverBackground: TODO
+  scrollbar.shadow: "{{ wb-12-charcoal-xxxxxxxxxx }}"
+  scrollbarSlider.activeBackground: "{{ wb-05-bright-gray-xxxxxxx }}"
+  scrollbarSlider.background: "{{ wb-05-bright-gray-xxxxxxx }}"
+  scrollbarSlider.hoverBackground: "{{ r-13-bright-green-xxxxxxx }}"
   # selection.background: TODO
   # settings.checkboxBackground: TODO
   # settings.checkboxBorder: TODO
