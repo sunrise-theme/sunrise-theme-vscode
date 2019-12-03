@@ -533,10 +533,38 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Meta
 # -----------------------------------------------------------------------------
+- name: JS Class/Method decorators -> @ punctuation is orange
+  scope: meta.decorator punctuation.decorator
+  settings:
+    foreground: "{{ syntax.scope.meta.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: JS Class/Method decorators -> blue function name
+  scope: meta.decorator variable
+  settings:
+    foreground: "{{ syntax.scope.meta.r-17-blue-xxxxxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Punctuation
 # -----------------------------------------------------------------------------
+- name: Template expressions ${}
+  scope: punctuation.definition.template-expression
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-08-bright-yellow-xxxxxx }}"
+
+- name: Key/value separators
+  scope: punctuation.separator
+  settings:
+    foreground: "{{ syntax.scope.punctuation.wb-00-white-xxxxxxxxxxxxx }}"
+
+- name: Embedded section punctuation
+  scope: punctuation.section.embedded
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-10-green-xxxxxxxxxxxxxx }}"
+
+- name: Markup list punctuation
+  scope: punctuation.definition.list
+  settings:
+    foreground: "{{ syntax.scope.punctuation.r-04-magenta-xxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Storage
