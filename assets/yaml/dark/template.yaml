@@ -166,18 +166,18 @@ colors:
   # inputValidation.warningBackground: TODO
   # inputValidation.warningBorder: TODO
   # inputValidation.warningForeground: TODO
-  # list.activeSelectionBackground: TODO
-  # list.activeSelectionForeground: TODO
+  list.activeSelectionBackground: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
+  list.activeSelectionForeground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   # list.dropBackground: TODO
   # list.errorForeground: TODO
-  # list.focusBackground: TODO
-  # list.focusForeground: TODO
-  # list.highlightForeground: TODO
-  # list.hoverBackground: TODO
-  # list.hoverForeground: TODO
+  list.focusBackground: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
+  list.focusForeground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  list.highlightForeground: "{{ r-02-bright-red-xxxxxxxxx }}"
+  list.hoverBackground: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
+  list.hoverForeground: "{{ wb-03-brighter-gray-xxxxx }}"
   # list.inactiveFocusBackground: TODO
-  # list.inactiveSelectionBackground: TODO
-  # list.inactiveSelectionForeground: TODO
+  list.inactiveSelectionBackground: "{{ wb-10-seal-xxxxxxxxxxxxxx }}"
+  list.inactiveSelectionForeground: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   # list.invalidItemForeground: TODO
   # list.warningForeground: TODO
   # listFilterWidget.background: TODO
@@ -196,10 +196,10 @@ colors:
   # merge.border: TODO
   # merge.commonContentBackground: TODO
   # merge.commonHeaderBackground: TODO
-  # merge.currentContentBackground: TODO
-  # merge.currentHeaderBackground: TODO
-  # merge.incomingContentBackground: TODO
-  # merge.incomingHeaderBackground: TODO
+  merge.currentContentBackground: "{{ r-19-purple-alpha-xxxxxxx }}"
+  merge.currentHeaderBackground: "{{ r-20-purple-xxxxxxxxxxxxx }}"
+  merge.incomingContentBackground: "{{ r-09-bright-yellow-alpha- }}"
+  merge.incomingHeaderBackground: "{{ r-02-bright-red-xxxxxxxxx }}"
   # minimap.findMatchHighlight: TODO
   # minimap.selectionHighlight: TODO
   # notificationCenter.border: TODO
