@@ -745,3 +745,29 @@ tokenColors:
   - keyword.other.unit.percentage.css
   settings:
     foreground: "{{ syntax.scope.keyword.r-07-yellow-xxxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# HTML, Jade, XML, Vue
+# -----------------------------------------------------------------------------
+- name: HTML, Jade metas, tags, html, script and jade
+  scope: meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+- name: Inline, block and localname
+  scope: entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html, entity.name.tag.localname.xml
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: XML tags
+  scope: entity.name.tag.xml, meta.tag.xml
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+- name: Vue tags
+  scope: source.vue, entity.name.tag.pug, meta.tag.other
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: Text pug
+  scope: text.pug
+  settings:
+    foreground: "{{ syntax.scope.text.wb-00-white-xxxxxxxxxxxxx }}"
