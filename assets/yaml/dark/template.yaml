@@ -668,3 +668,11 @@ tokenColors:
   scope: variable.other.property
   settings:
     foreground: "{{ syntax.scope.variable.wb-01-very-bright-gray-xx }}"
+
+# -----------------------------------------------------------------------------
+# Docker
+# -----------------------------------------------------------------------------
+- name: Docker file `FROM`
+  scope: keyword.other.special-method
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-17-blue-xxxxxxxxxxxxxxx }}"
