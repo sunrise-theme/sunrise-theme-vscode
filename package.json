@@ -6,5 +6,9 @@
   "repository": "https://github.com/sunrise-theme/sunrise-theme-vscode.git",
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "js-yaml": "^3.13.1"
+  }
 }
