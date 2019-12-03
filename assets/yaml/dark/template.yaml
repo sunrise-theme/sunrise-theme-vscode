@@ -5,13 +5,13 @@ type: dark
 # UI components colors
 # =============================================================================
 colors:
-  # activityBar.background: TODO
+  activityBar.background: "{{ wb-12-charcoal-xxxxxxxxxx }}"
   # activityBar.border: TODO
   # activityBar.dropBackground: TODO
-  # activityBar.foreground: TODO
+  activityBar.foreground: "{{ wb-01-very-bright-gray-xx }}"
   # activityBar.inactiveForeground: TODO
-  # activityBarBadge.background: TODO
-  # activityBarBadge.foreground: TODO
+  activityBarBadge.background: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  activityBarBadge.foreground: "{{ wb-12-charcoal-xxxxxxxxxx }}"
   # badge.background: TODO
   # badge.foreground: TODO
   # breadcrumb.activeSelectionForeground: TODO
