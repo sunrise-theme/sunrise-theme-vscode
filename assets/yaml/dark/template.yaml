@@ -307,27 +307,27 @@ colors:
   # tab.unfocusedInactiveForeground: TODO
   # tab.unfocusedInactiveModifiedBorder: TODO
   # terminal.ansiBlack: TODO
-  # terminal.ansiBlue: TODO
-  # terminal.ansiBrightBlack: TODO
-  # terminal.ansiBrightBlue: TODO
-  # terminal.ansiBrightCyan: TODO
-  # terminal.ansiBrightGreen: TODO
-  # terminal.ansiBrightMagent: TODO
-  # terminal.ansiBrightRed: TODO
-  # terminal.ansiBrightWhite: TODO
-  # terminal.ansiBrightYellow: TODO
-  # terminal.ansiCyan: TODO
-  # terminal.ansiGreen: TODO
-  # terminal.ansiMagent: TODO
-  # terminal.ansiRed: TODO
-  # terminal.ansiWhite: TODO
-  # terminal.ansiYellow: TODO
-  # terminal.background: TODO
-  # terminal.border: TODO
-  # terminal.foreground: TODO
-  # terminal.selectionBackground: TODO
-  # terminalCursor.background: TODO
-  # terminalCursor.foreground: TODO
+  terminal.ansiBlue: "{{ ansi.r-17-blue-xxxxxxxxxxxxxxx }}"
+  terminal.ansiBrightBlack: "{{ ansi.wb-13-black-xxxxxxxxxxxxx }}"
+  terminal.ansiBrightBlue: "{{ ansi.r-16-bright-blue-xxxxxxxx }}"
+  terminal.ansiBrightCyan: "{{ ansi.r-14-bright-cyan-xxxxxxxx }}"
+  terminal.ansiBrightGreen: "{{ ansi.r-13-bright-green-xxxxxxx }}"
+  terminal.ansiBrightMagent: "{{ ansi.r-05-bright-magenta-xxxxx }}"
+  terminal.ansiBrightRed: "{{ ansi.r-02-bright-red-xxxxxxxxx }}"
+  terminal.ansiBrightWhite: "{{ ansi.wb-00-white-xxxxxxxxxxxxx }}"
+  terminal.ansiBrightYellow: "{{ ansi.r-08-bright-yellow-xxxxxx }}"
+  terminal.ansiCyan: "{{ ansi.r-15-cyan-xxxxxxxxxxxxxxx }}"
+  terminal.ansiGreen: "{{ ansi.r-10-green-xxxxxxxxxxxxxx }}"
+  terminal.ansiMagent: "{{ ansi.r-04-magenta-xxxxxxxxxxxx }}"
+  terminal.ansiRed: "{{ ansi.r-00-red-xxxxxxxxxxxxxxxx }}"
+  terminal.ansiWhite: "{{ ansi.wb-00-white-xxxxxxxxxxxxx }}"
+  terminal.ansiYellow: "{{ ansi.wb-13-black-xxxxxxxxxxxxx }}"
+  terminal.background: "{{ ansi.wb-11_very-dark-gray-xxxx }}"
+  terminal.border: "{{ ansi.wb-05-bright-gray-xxxxxxx }}"
+  terminal.foreground: "{{ ansi.wb-01-very-bright-gray-xx }}"
+  terminal.selectionBackground: "{{ ansi.r-09-bright-yellow-alpha- }}"
+  terminalCursor.background: "{{ ansi.r-02-bright-red-xxxxxxxxx }}"
+  terminalCursor.foreground: "{{ ansi.r-02-bright-yellow-xxxxxxxxx }}"
   # textBlockQuote.background: TODO
   # textBlockQuote.border: TODO
   # textCodeBlock.background: TODO
