@@ -771,3 +771,41 @@ tokenColors:
   scope: text.pug
   settings:
     foreground: "{{ syntax.scope.text.wb-00-white-xxxxxxxxxxxxx }}"
+
+# -----------------------------------------------------------------------------
+# JS
+# -----------------------------------------------------------------------------
+- name: JS type class
+  scope: entity.name.type.class.js
+  settings:
+    foreground: "{{ syntax.scope.entity.r-16-bright-blue-xxxxxxxx }}"
+
+- name: JS control as
+  scope: keyword.control.as.js
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-05-bright-magenta-xxxxx }}"
+
+- name: JS control from
+  scope: keyword.control.from.js
+  settings:
+    foreground: "{{ syntax.scope.keyword.r-05-bright-magenta-xxxxx }}"
+
+- name: JS control export
+  scope: keyword.control.export.js
+  settings:
+    foreground: "{{ syntax.scope.keyword.rr-20-purple-xxxxxxxxxxxxx }}"
+
+- name: JS variable language this
+  scope: variable.language.this.js
+  settings:
+    fontStyle: italic
+
+- name: JS console
+  scope: support.class.console.js
+  settings:
+    fontStyle: italic
+
+- name: JS alias
+  scope: variable.other.readwrite.alias.js.jsx
+  settings:
+    foreground: "{{ syntax.scope.variable.wb-04-contrast-gray-xxxxx }}"
