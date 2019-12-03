@@ -12,16 +12,16 @@ colors:
   # activityBar.inactiveForeground: TODO
   activityBarBadge.background: "{{ r-10-green-xxxxxxxxxxxxxx }}"
   activityBarBadge.foreground: "{{ wb-12-charcoal-xxxxxxxxxx }}"
-  # badge.background: TODO
-  # badge.foreground: TODO
+  badge.background: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  badge.foreground: "{{ wb-12-charcoal-xxxxxxxxxx }}"
   # breadcrumb.activeSelectionForeground: TODO
   # breadcrumb.background: TODO
   # breadcrumb.focusForeground: TODO
   # breadcrumb.foreground: TODO
   # breadcrumbPicker.background: TODO
-  # button.background: TODO
-  # button.foreground: TODO
-  # button.hoverBackground: TODO
+  button.background: "{{ r-10-green-xxxxxxxxxxxxxx }}"
+  button.foreground: "{{ wb-01-very-bright-gray-xx }}"
+  button.hoverBackground: "{{ wb-06-bright-midnight-xxx }}"
   # checkbox.background: TODO
   # checkbox.border: TODO
   # checkbox.foreground: TODO
