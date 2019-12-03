@@ -569,10 +569,19 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Storage
 # -----------------------------------------------------------------------------
+- name: Generic <storage> matches
+  scope: storage
+  settings:
+    foreground: "{{ syntax.scope.storage.r-05-bright-magenta-xxxxx}}"
+    fontStyle: "{{ keywordStyle }}"
 
 # -----------------------------------------------------------------------------
 # Strings
 # -----------------------------------------------------------------------------
+- name: Generic string match
+  scope: string
+  settings:
+    foreground: "{{ syntax.scope.string.r-10-green-xxxxxxxxxxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Support
