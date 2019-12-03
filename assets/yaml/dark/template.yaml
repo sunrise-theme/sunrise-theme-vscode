@@ -381,10 +381,58 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Entities
 # -----------------------------------------------------------------------------
+- name: Named entities
+  scope: entity.name
+  settings:
+    foreground: "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Tags
+  scope: entity.name.tag
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+    fontStyle: "{{ tagStyle }}"
+
+- name: Static types
+  scope:
+  - entity.name.type
+  - storage.type.cs
+  settings:
+    foreground: "{{ syntax.scope.entity.r-07-yellow-xxxxxxxxxxxxx }}"
+
+- name: Variable names
+  scope:
+  - entity.name.variable
+  - variable
+  settings:
+    foreground: "{{ syntax.scope.entity.r-00-red-xxxxxxxxxxxxxxxx }}"
+
+- name: Function names
+  scope: entity.name.function
+  settings:
+    foreground: "{{ syntax.scope.entity.r-17-blue-xxxxxxxxxxxxxxx }}"
+
+- name: Class extensions eg extends `Component`
+  scope: entity.other.inherited-class
+  settings:
+    foreground: "{{ syntax.scope.entity.r-05-bright-magenta-xxxxx }}"
+
+- name: YAML keys
+  scope: entity.name.tag.yaml
+  settings:
+    foreground: "{{ syntax.scope.entity.r-08-bright-yellow-xxxxxx }}"
 
 # -----------------------------------------------------------------------------
 # Invalid
 # -----------------------------------------------------------------------------
+- name: Invalid or illegal
+  scope: invalid.illegal
+  settings:
+    border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
+
+- name: Invalid or deprecated
+  scope: invalid.deprecated
+  settings:
+    background-foreground: rgba(255, 44, 109, 0.62)
 
 # -----------------------------------------------------------------------------
 # Keywords
