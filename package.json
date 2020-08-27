@@ -7,7 +7,7 @@
   "author": "Seingshin Lee <seingshinlee@gmail.com>",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.42.0"
+    "insider": "^1.49.0"
   },
   "categories": [
     "Themes"
